@@ -43,6 +43,8 @@ execute gazebo.sh
 +run the linux build script
 
 10. Checkout the code of the champios
-	https://github.com/LARG/utaustinvilla3d
 
+compile utaustinvilla3d
+cmake .
+make
 Make a game
