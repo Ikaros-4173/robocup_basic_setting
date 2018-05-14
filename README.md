@@ -1,11 +1,16 @@
+sudo apt-get install g++ git cmake libfreetype6-dev libode-dev libsdl-dev ruby ruby-dev libdevil-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-system-dev qt4-default
+
 1. Download Simpark
-http://robocup-sim.gitlab.io/SimSpark/downloads.html
+https://gitlab.com/robocup-sim/SimSpark
 
-2. Install ruby
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-\curl -sSL https://get.rvm.io | bash -s stable --ruby
+compile spark first and the server
+make build folder
+inside build
+cmake ..
+make
+sudo make install
+sudo ldconfig
 
-Add source ```$HOME/.rvm/scripts/rvmi``` to your *.bashrc* or *.zshrc* file in user home
 
 3. Install ODE
 sudo apt-get install libode-dev 
@@ -33,7 +38,11 @@ execute gazebo.sh
 9. Unpack Simpark, and follow INSTALL Instruction
 
 
-
++10. Install Roboviz
++clone https://github.com/dsapandora/RoboViz
++run the linux build script
 
 10. Checkout the code of the champios
-http://wiki.robocup.org/Soccer_Simulation_League/3DResources
+	https://github.com/LARG/utaustinvilla3d
+
+Make a game
