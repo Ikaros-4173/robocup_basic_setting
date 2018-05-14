@@ -1,4 +1,7 @@
-sudo apt-get install g++ git cmake libfreetype6-dev libode-dev libsdl-dev ruby ruby-dev libdevil-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-system-dev qt4-default
+# Requerimientos
+```sudo apt-get install g++ git cmake libfreetype6-dev libode-dev libsdl-dev ruby ruby-dev libdevil-dev libboost-dev libboost-thread-dev libboost-regex-dev libboost-system-dev qt4-default```
+
+# Simulacion
 
 1. Download Simpark
 https://gitlab.com/robocup-sim/SimSpark
